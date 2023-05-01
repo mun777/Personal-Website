@@ -1,0 +1,313 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    font-family: auto;
+    font-size:30px;
+    color:#fbf8f0;
+    line-height:1.5;
+}
+
+
+.header{
+
+    background-image:url('./img/background1.jpg');
+    background-size: cover; 
+    background-position:center ; 
+    height: 100vh;
+
+}
+.navbar-brand {
+    color: #fbf8f0;
+    text-decoration: none;
+    font-size: 24px;
+}
+#showcase p{
+    font-size:30px;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-self: space-between;
+    align-items: center;
+}
+nav img{
+    width:150px;
+}
+.nav-links
+{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul a{
+    color: #fbf8f0;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 6px 8px;
+    position: relative;
+}
+.nav-links ul li a::after{
+   content:'';
+   width: 0%;
+   height:2px;
+   background: white;
+   display: block;
+   margin:auto;
+   transition: 0.5s;
+}
+.nav-links ul li a:hover::after{
+    
+    width: 100%;
+
+ }
+.text-box{
+    width:90%;
+    color:white ;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+
+}
+.text-box h1{
+    font-size: 30px;
+}
+.text-box p{
+    margin:10px 0 60px;
+    font-size: 70px;
+    color:white;
+}
+.def-button{
+    display:inline-block;
+    text-decoration:none;
+    color: white;
+    border:1px solid white;
+    padding:12px 32px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.def-button:hover{
+    border:1px solid #560ca0;
+    background:#560ca0;
+}
+
+
+/*about me section*/
+
+.about{
+    width:100%;
+    padding: 80px 0px;
+    background-color: black;
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about-text{
+    width: 600px;
+}
+.main{
+    width: 1100px;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-self: space-around;
+}
+.about-text h1{
+    color:white;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.about-text h2{
+    color:rgb(193, 20, 20);
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    letter-spacing: 2px;
+}
+.about-text p{
+    color:white;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.about-text h3{
+    color:rgb(193, 20, 20);
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.about-text h4{
+    color:white;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.text-button{
+    display:inline-block;
+    text-decoration:none;
+    color: white;
+    border:1px solid white;
+    padding:12px 32px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.text-button:hover{
+    border:1px solid #560ca0;
+    background:#76a413;
+}
+
+
+/*service section*/
+
+.service-text p{
+    margin: 20px 20px;
+    font-size: 16px;
+}
+.service-text h1{
+    color:white;
+    font-size: 48px;
+    text-transform: capitalize;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin: 20px 20px;
+
+}
+.service-text h3{
+    color:rgb(193, 20, 20);
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.service-text h4{
+    color:white;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.para-button{
+    display:inline-block;
+    text-decoration:none;
+    color: white;
+    border:1px solid white;
+    padding:12px 32px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.para-button:hover{
+    border:1px solid #560ca0;
+    background:#76a413;
+}
+
+
+
+/*qualifications*/
+
+
+
+.qualification-text h1{
+    color:white;
+    font-size: 48px;
+    text-transform: capitalize;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin: 20px 20px;
+    margin-left: 0px;
+
+}
+
+.qualification-text h2{
+    font-size: 16px;
+    margin: 20px 20px;
+    color: black;
+
+}
+
+.res{
+    margin-left: 0px;
+    display:inline-block;
+    text-decoration:none;
+    color: white;
+    border:1px solid white;
+    padding:12px 32px;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-left: 0px;
+    
+}
+.res:hover{
+    border:1px solid #560ca0;
+    background:#560ca0;
+}
+.qualification-text h3{
+    color:rgb(193, 20, 20);
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+.qualification-text h4{
+    color:white;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+ /*portfoio*/
+ .links{
+
+    width: 100%;
+    position:absolute;
+    top:35%;
+    text-align: center;
+}
+.links h1{
+    font-size: 48px;
+    
+}
+ .button{
+    display:inline-block;
+    text-decoration:none;
+    color: white;
+    border:1px solid white;
+    padding:12px 32px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.button:hover{
+    border:1px solid #560ca0;
+    background:#560ca0;
+}

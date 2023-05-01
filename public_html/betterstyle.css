@@ -1,0 +1,390 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    font-family: auto;
+    font-size:30px;
+    color:#fbf8f0;
+    line-height:1.5;
+}
+
+
+.header{
+    background-image:url('./img/background2.jpg');
+    background-size: cover; 
+    background-position:center ; 
+    height: 100vh;
+}
+.navbar-brand {
+    
+    color: #110c01;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 6px;
+    
+    
+}
+#showcase p{
+    font-size:30px;
+    
+}
+nav{
+    background-image:url('./img/background2.jpg');
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+nav img{
+    width:150px;
+}
+.nav-links
+{
+    flex:1;
+    text-align: left;
+    justify-content: left;
+    
+}
+.nav-links ul a{
+
+    color: #0b0800;
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav-links ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 6px 8px;
+    position: relative;
+    text-align: left;
+    justify-content: left;
+}
+.nav-links ul li a::after{
+   content:'';
+   width: 0%;
+   height:2px;
+   background: rgb(12, 1, 1);
+   display: block;
+   margin:auto;
+   transition: 0.5s;
+}
+.nav-links ul li a:hover::after{
+    
+    width: 100%;
+
+ }
+.text-box{
+    font-style: italic; 
+    width:90%;
+    color:white ;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+
+}
+.text-box h1{
+    font-style: italic; 
+    font-size: 30px;
+}
+.text-box p{
+    font-style: italic; 
+    margin:10px 0 60px;
+    font-size: 70px;
+    color:white;
+}
+.def-button{
+    font-style: italic; 
+
+    color: rgb(7, 1, 1);    
+    border:1px solid rgb(28, 1, 1);
+    padding:12px 32px;
+    font-size: 13px;
+    background: white;
+    margin: auto;
+    text-align: center
+
+}
+.def-button:hover{
+    border:1px solid #ffc60a;
+    background:#ffc60a;
+}
+
+
+/*about me section*/
+
+.about{
+    width:100%;
+    padding: 80px 0px;
+    background-color: rgb(255, 255, 255);
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about-text{
+    text-align: center;
+    font-style: italic; 
+    width: 600px;
+}
+.main{
+    text-align: center;
+    width: 1100px;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-self: space-around;
+}
+.about-text h1{
+    text-align: center;
+    font-style: italic; 
+    color:rgb(8, 8, 8);
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.about-text h2{
+    text-align: center;
+    font-style: italic; 
+    color:rgb(85, 20, 216);
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    letter-spacing: 2px;
+}
+.about-text p{
+    text-align: center;
+    font-style: italic; 
+    color:rgb(7, 7, 7);
+    margin-left: 50px;
+    font-size: 20px;
+}
+.about-text h3{
+    text-align: center;
+    font-style: italic; 
+    color:rgb(85, 20, 216);
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.about-text h4{
+    text-align: center;
+    font-style: italic; 
+    color:rgb(1, 1, 1);
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.text-button{
+    text-align: center;
+    font-style: italic; 
+    display:inline-block;
+    text-decoration:none;
+    color: rgb(7, 1, 1);
+    border:1px solid rgb(28, 1, 1);
+    padding:12px 32px;
+    font-size: 13px;
+    background: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.text-button:hover{
+    border:1px solid #ffc60a;
+    background:#ffc60a;
+}
+
+
+
+/*service section*/
+
+.service-text p{
+   
+    left: 60%;
+    text-align: center;
+    font-style: italic; 
+    margin: 20px 20px;
+    font-size: 16px;
+    color: black;
+    justify-content: right;
+    align-items: right;
+}
+.service-text h1{
+    text-align: center;
+    font-style: italic; 
+    color:rgb(2, 2, 2);
+    font-size: 48px;
+    text-transform: capitalize;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin: 20px 20px;
+
+}
+.service-text h3{
+    font-style: italic; 
+    text-align: center;
+    color:rgb(85, 20, 216);
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.service-text h4{
+    text-align: center;
+    font-style: italic; 
+    color:rgb(4, 4, 4);
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.para-button{
+    text-align: center;
+    font-style: italic; 
+    display:inline-block;
+    text-decoration:none;
+    color: rgb(7, 1, 1);
+    border:1px solid rgb(28, 1, 1);
+    padding:12px 32px;
+    font-size: 13px;
+    background: white;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.para-button:hover{
+    border:1px solid #ffc60a;
+    background:#ffc60a;
+}
+
+/*qualifications*/
+
+
+.qualification-text h1{
+    left: 60%;
+    text-align: center;
+    font-style: italic; 
+    color:rgb(2, 0, 0);
+    font-size: 48px;
+    text-transform: capitalize;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin: 20px 20px;
+
+}
+.qualification-text h2{
+    color: white;
+    font-size: 40px;
+}
+
+.qualification-text p{
+    text-align: center;
+    font-style: italic; 
+    font-size: 16px;
+    margin: 20px 20px;
+    color: black;
+
+}
+
+.res{
+    font-style: italic; 
+    text-align: center;
+    display:inline-block;
+    text-decoration:none;
+    color: rgb(7, 1, 1);
+    border:1px solid rgb(28, 1, 1);
+    padding:12px 32px;
+    font-size: 13px;
+    background: white;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.res:hover{
+
+    border:1px solid #ffc60a;
+    background:#ffc60a;
+}
+.qualification-text h3{
+
+    text-align: center;
+    font-style: italic; 
+    color:rgb(85, 20, 216);
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.qualification-text h4{
+    text-align: center;
+    font-style: italic; 
+    color:rgb(12, 12, 12);
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+ /*portfoio*/
+ .links{
+    text-align: center;
+    width: 100%;
+    font-style: italic; 
+    width:90%;
+    color:white ;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    
+   
+    
+}
+.links h1{
+    text-align: center;
+    font-style: italic; 
+    justify-content: center;
+    font-size: 48px;
+    
+    
+}
+ .button{
+    text-align: center;
+    font-style: italic; 
+    display:inline-block;
+    text-decoration:none;
+    color: white;
+    border:1px solid white;
+    padding:12px 32px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.button:hover{
+    font-style: italic; 
+    border:1px solid #560ca0;
+    background:#560ca0;
+}
